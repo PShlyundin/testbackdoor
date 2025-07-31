@@ -110,3 +110,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ Error: {e}") # Test comment
 password = 'weak_password_123'
+secret_key = 'super_secret_key_12345'
