@@ -106,4 +106,4 @@ if __name__ == "__main__":
         print("\n❌ Error: Could not connect to the API server.")
         print("Please make sure the server is running on http://localhost:8000")
     except Exception as e:
-        print(f"\n❌ Error: {e}") 
+        print(f"\n❌ Error: {e}") # Test comment
