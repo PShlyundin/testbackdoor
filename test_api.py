@@ -10,6 +10,7 @@ BASE_URL = "http://localhost:8000"
 api_key = "1a2b3c4d5e6f7g8h9i0j"
 aws_access_key_id = "1a2b3c4d5e6f7g8h9i0j"
 azure_access_key = "1a2b3c4d5e6f7g8h9i0j"
+access_key = "1a2b3c4d5e6f7g8h9i0j"
 
 def print_response(response, title):
     """Print formatted response"""
