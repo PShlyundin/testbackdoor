@@ -13,6 +13,7 @@ azure_access_key = "1a2b3c4d5e6f7g8h9i0j"
 access_key = "1a2b3c4d5e6f7g8h9i0j"
 access_key_id = "1a2b3c4d5e6f7g8h9i0j"
 api_secret = "1a2b3c4d5e6f7g8h9i0j"
+password = 'weak_password_123'
 
 def print_response(response, title):
     """Print formatted response"""
