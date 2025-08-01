@@ -114,9 +114,9 @@ docker run -p 8000:8000 task-manager-monorepo
 - **API Documentation:** `GET /docs`
 - **Alternative Docs:** `GET /redoc`
 
-## 🔗 Ссылки на отдельные репозитории
+## 🔗 Внешние зависимости
 
-Для переиспользования компонентов в других проектах:
+Монорепозиторий использует следующие внешние репозитории:
 
 ### Shared FastAPI Core
 ```
@@ -124,11 +124,30 @@ https://github.com/PShlyundin/shared-fastapi-core
 ```
 Содержит общие компоненты: база данных, аутентификация, утилиты.
 
+**Установка:**
+```bash
+pip install git+https://github.com/PShlyundin/shared-fastapi-core.git
+```
+
 ### Task Management API
 ```
 https://github.com/PShlyundin/task-management-api
 ```
 Отдельный репозиторий только для управления задачами.
+
+**Установка:**
+```bash
+git clone https://github.com/PShlyundin/task-management-api.git
+cd task-management-api
+pip install -r requirements.txt
+```
+
+## 🔄 Обновление зависимостей
+
+```bash
+# Обновить shared-fastapi-core
+pip install --upgrade git+https://github.com/PShlyundin/shared-fastapi-core.git
+```
 
 ## 📝 Лицензия
 
